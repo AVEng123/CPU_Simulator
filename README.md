@@ -37,34 +37,20 @@ sudo apt-get install gcc python3-tk build-essential
 
 1. Clone this repository:
 ```bash
-git clone [https://github.com/yourusername/CPU_Simulator.git](https://github.com/yourusername/CPU_Simulator.git)
+git clone https://github.com/yourusername/CPU_Simulator.git
 
 ```
-
 
 2. Navigate to the folder:
 ```bash
 cd CPU_Simulator
 
 ```
-
-
 3. Run the application:
 ```bash
 python3 run.py
 
 ```
----
-
-##  Architecture Specifications
-
-| Component     | Specification |
-| **Word Size** | 8-Bit |
-| **Registers** | 8 General Purpose (R0-R6 = Data, R7 = Stack Pointer) |
-| **Memory**    | 256 Bytes Total (128B Data / 128B Stack) |
-| **Buses**     | Dedicated 8-bit Address and Data buses |
-| **Flags**     | Carry (C), Zero (Z), Overflow (O), Sign (S) |
-
 ---
 
 ##  Open Source & Contributing
@@ -83,7 +69,7 @@ This is an **Open Source** project designed to help students and developers lear
 
 The simulator comes pre-loaded with an array addition script to demonstrate memory mapping:
 
-
+```
 #include <stdio.h>
 
 int main() {
@@ -97,7 +83,7 @@ int main() {
     }
     return 0;
 }
-
+```
 
 ### What to watch for during execution:
 
