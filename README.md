@@ -1,15 +1,15 @@
 
-# 8-Bit CPU Simulator (8051-Inspired)
+# 8-Bit CPU Model (8051-Inspired)
 
 Have you ever wondered what happens inside a microcontroller when you call a function or add two numbers in C?
 
-This simulator bridges the gap between high-level logic and hardware reality. By leveraging the GCC compiler to process actual C code and mapping the resulting execution to a simulated 8-bit environment, it allows students and engineers to see data moving between registers, memory, and the ALU.
+This Model bridges the gap between high-level logic and hardware reality. By leveraging the GCC compiler to process actual C code and mapping the resulting execution to a simulated 8-bit environment, it allows students and engineers to see data moving between registers, memory, and the ALU.
 
 
 ##  Overview
-This simulator bridges the gap between high-level programming and low-level hardware. By compiling C code using `gcc` and mapping it to a simulated 8-bit architecture, users can watch exactly how data moves through a computer in real-time.
+This Model bridges the gap between high-level programming and low-level hardware. By compiling C code using `gcc` and mapping it to a simulated 8-bit architecture, users can watch exactly how data moves through a computer in real-time.
 
-> **Note:** Because the simulator relies on `gcc` for the heavy lifting of code analysis, having a working C compiler installed on your system is mandatory.
+> **Note:** Because the Model relies on `gcc` for the heavy lifting of code analysis, having a working C compiler installed on your system is mandatory.
 
 ---
 
@@ -36,17 +36,17 @@ sudo apt-get install gcc python3-tk build-essential
 
 ```
 
-### Running the Simulator
+### Running the Model
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/CPU_Simulator.git
+git clone https://github.com/yourusername/CPU_Model.git
 
 ```
 
 2. Navigate to the folder:
 ```bash
-cd CPU_Simulator
+cd CPU_Model
 
 ```
 3. Run the application:
@@ -70,7 +70,7 @@ This is an **Open Source** project designed to help students and developers lear
 
 ## Example Program
 
-The simulator comes pre-loaded with an array addition script to demonstrate memory mapping:
+The Model comes pre-loaded with an array addition script to demonstrate memory mapping:
 
 ```
 #include <stdio.h>
@@ -100,6 +100,6 @@ int main() {
 
 * **"gcc not found":** Run `sudo apt-get install build-essential`.
 * **"tkinter not found":** Run `sudo apt-get install python3-tk`.
-* **Compile Error:** Check the status area in the simulator for standard C syntax errors.
+* **Compile Error:** Check the status area in the Model for standard C syntax errors.
 
 ---

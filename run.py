@@ -184,7 +184,7 @@ class BusVisualizer(tk.Frame):
 class CPUVisualizer:
     def __init__(self, root):
         self.root = root
-        self.root.title("CPU Simulator with C Program Execution")
+        self.root.title("CPU Model with C Program Execution")
         self.root.geometry("1600x1000")
         self.root.config(bg="white")
 
